@@ -36,7 +36,7 @@ Se identificaron posibles fallos en validación de datos y riesgos relacionados 
 - Implementación de pruebas automatizadas  
 
 ##  Autor(es)
-- Tu nombre aquí
+- Nicolas Maldonado Preciado
 
 ## Fecha
 Mayo 2026
