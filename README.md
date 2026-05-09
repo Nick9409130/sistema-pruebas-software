@@ -1,39 +1,42 @@
-# 🧪 Sistema de Pruebas de Software – Gestión de Artículos
+# Sistema de Pruebas de Software - Gestión de Artículos
 
-## 📌 Descripción del Proyecto
+##  Descripción
+Este repositorio contiene el desarrollo de un plan de pruebas aplicado a un sistema de gestión de artículos (CRUD), como parte de una actividad académica enfocada en el aseguramiento de calidad del software.
 
-Este proyecto corresponde al diseño y elaboración de un plan de pruebas de software aplicado a un sistema de gestión de artículos desarrollado bajo la arquitectura CRUD (Create, Read, Update y Delete) utilizando PHP y MySQL.
+##  Objetivo
+Validar el correcto funcionamiento del sistema mediante pruebas unitarias, asegurando la integridad de las operaciones principales: crear, leer, actualizar y eliminar registros.
 
-El propósito principal del proyecto es validar el correcto funcionamiento de las funcionalidades críticas del sistema mediante la implementación de pruebas unitarias, permitiendo identificar posibles errores, riesgos y oportunidades de mejora antes de su implementación final.
+##  Tipo de pruebas
+Se implementaron pruebas unitarias para verificar el comportamiento de funciones individuales del sistema.
 
-El repositorio incluye documentación técnica, casos de prueba, evidencias visuales y una estructura básica del sistema evaluado, siguiendo principios de aseguramiento de calidad de software.
+##  Estructura del proyecto
+- **documento/** → Informe en normas APA  
+- **evidencias/** → Capturas de pantalla  
+- **codigo/** → Código fuente del sistema  
+- **casos_prueba/** → Documentación de pruebas  
 
----
+##  Casos de prueba
 
-## 🎯 Objetivos
+| ID   | Descripción                  | Resultado |
+|------|-----------------------------|----------|
+| CP-01 | Registro de artículo        | Aprobado |
+| CP-02 | Validación campo vacío      | Aprobado |
+| CP-03 | Eliminación de artículo     | Aprobado |
+| CP-04 | Actualización de artículo   | Aprobado |
 
-- Validar las operaciones principales del sistema.
-- Verificar el comportamiento de funciones individuales mediante pruebas unitarias.
-- Detectar posibles fallos de validación y manejo de datos.
-- Documentar técnicamente el proceso de testing del software.
-- Aplicar conceptos de aseguramiento de calidad dentro del ciclo de vida del desarrollo.
+##  Evidencias
+Las evidencias del sistema se encuentran en la carpeta `/evidencias`.
 
----
+##  Análisis
+Se identificaron posibles fallos en validación de datos y riesgos relacionados con la integridad de la información.
 
-## 🧪 Tipo de pruebas implementadas
+##  Mejoras propuestas
+- Validación de datos más robusta  
+- Confirmaciones en acciones críticas  
+- Implementación de pruebas automatizadas  
 
-### ✅ Pruebas Unitarias
-Las pruebas unitarias fueron seleccionadas debido a su importancia en la validación de componentes específicos del sistema. Estas pruebas permiten comprobar el funcionamiento individual de funciones y módulos, facilitando la detección temprana de errores y mejorando la estabilidad del software.
+##  Autor(es)
+- Tu nombre aquí
 
----
-
-## 📂 Estructura del Repositorio
-
-```bash
-sistema-pruebas-software/
-│
-├── README.md
-├── documento/
-├── evidencias/
-├── codigo/
-└── casos_prueba/
+## Fecha
+Mayo 2026
